@@ -1,0 +1,21 @@
+.text {
+	/* appears to not be needed
+	 * but nice to have just
+	 * in case
+	 */
+	direction: ltr;
+}
+.overflow {
+	/* not important */
+	width: 20em;
+	
+	/* needed for text overflow */
+	white-space: nowrap;
+	overflow: hidden;
+	
+	/* gives us our ... */
+	text-overflow: ellipsis;
+	
+	/* allows the ... to be on the left */
+	direction: rtl;
+}
